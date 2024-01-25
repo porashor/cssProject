@@ -1,0 +1,70 @@
+:root{
+    --deepDarkBg: #000;
+    --primaryColor: #fff;
+    --whiteBg: #aaa;
+    --transparentColor: #0000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+#slide-area {
+    background-color: var(--deepDarkBg);
+    color: var(--primaryColor);
+    padding: 3%;
+}
+.container-area{
+    width: 80%;
+    height: 350px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.details-area{
+    padding: 0px 10px;
+}
+
+.header-area {
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 700;
+}
+.btn-area{
+    margin: 10px 0px;
+}
+.btn{
+    background-color: var(--transparentColor);
+    color: var(--primaryColor);
+    padding: 5px 7px;
+    border: 1px solid var(--primaryColor);
+    border-radius: none;
+}
+.para-area{
+    text-transform: lowercase;
+    font-size: 14px;
+}
+
+.image-area img{
+    height: 30%;
+}
+
+/* theoury area is started from here  */
+
+#theory-area{
+    background-color: var(--whiteBg);
+    color: var(--primaryColor);
+}
+.container-area-two{
+    margin: 0px auto;
+    width: 80%;
+    padding: 100px 0px;
+}
+.theoury {
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px 0;
+}
